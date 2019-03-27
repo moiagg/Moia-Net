@@ -1,0 +1,4 @@
+[submodule "backend"]
+	url = https://github.com/moiagg/MN-Backend.git
+[submodule "frontend"]
+	url = https://github.com/moiagg/MN-Frontend.git
