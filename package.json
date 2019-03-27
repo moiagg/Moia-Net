@@ -1,0 +1,28 @@
+{
+  "name": "Moia-Net",
+  "version": "1.0.0",
+  "description": "Moia-Net",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "backend:install": "npm install --prefix backend",
+    "frontend:install": "npm install --prefix frontend",
+    "server": "npm run server:dev --prefix backend",
+    "frontend": "npm start --prefix frontend",
+    "start": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moiagg/Moia-Net.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moiagg/Moia-Net/issues"
+  },
+  "homepage": "https://github.com/moiagg/Moia-Net#readme"
+}
